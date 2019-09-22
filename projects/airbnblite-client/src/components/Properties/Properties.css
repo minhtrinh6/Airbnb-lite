@@ -1,0 +1,36 @@
+.jumbotron2 {
+  height: 350px;
+  position: relative;
+  display: block;
+  opacity: 0.95;
+  
+}
+
+.jumbotron2::after {
+  content: "";
+  position: absolute;
+  background-image: url('./neighborhood.jpg');
+  background-size: cover;
+  height: 350px;
+  opacity: 0.5;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+
+}
+
+.title1 {
+  padding-top: 60px;
+  color: black;
+  opacity: 1.0;
+}
+
+.body1 {
+  color: black;
+  font-size: 24px;
+  font-weight: 350;
+  opacity: 1.0;
+}

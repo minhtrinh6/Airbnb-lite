@@ -1,0 +1,36 @@
+.jumbotron5 {
+  height: 350px;
+  position: relative;
+  display: block;
+  opacity: 0.95;
+  
+}
+
+.jumbotron5::after {
+  content: "";
+  position: absolute;
+  background-image: url('./boston.jpg');
+  background-size: cover;
+  height: 350px;
+  opacity: 0.8;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+
+}
+
+.title5 {
+  padding-top: 60px;
+  color: white;
+  opacity: 1.0;
+}
+
+.body5 {
+  color: white;
+  font-size: 24px;
+  font-weight: 350;
+  opacity: 1.0;
+}

@@ -1,0 +1,19 @@
+.home {
+  background-image: url('./images/JumboTron.jpg');
+  background-size: cover;
+  height: 740px;
+}
+
+.titleHome {
+  padding-top: 90px;
+  color: black;
+}
+
+.bodyHome {
+  font-size: 24px;
+  font-weight: 350px;
+}
+
+.container {
+  padding: 0%;
+}
